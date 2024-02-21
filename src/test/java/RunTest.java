@@ -28,7 +28,7 @@ public class RunTest {
 
     @BeforeAll
     public static void  beforeAll(){
-        System.out.println("befforeAl");
+        System.out.println("befforeAll");
     }
 
     @AfterAll
@@ -38,17 +38,17 @@ public class RunTest {
 
     @Test
     public void factorialTest1() {
-        Assert.assertEquals(720, factorial(6)); //положительная проверкаa
+        Assert.assertEquals(720, factorial(6)); //положительная проверка
     }
 
     @Test
     public void factorialTest2() {
-        Assert.assertEquals(1, factorial(0)); // проверка нуляя
+        Assert.assertEquals(1, factorial(0)); // проверка нуля
     }
 
     @Test
     public void factorialTest3() {
-        Assert.assertEquals(0, factorial(1)); // проверка единицыы
+        Assert.assertEquals(0, factorial(1)); // проверка единицы
     }
 
     @Test
