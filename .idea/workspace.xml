@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/AuthorizationTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/CreateJiraTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/JiraTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/PageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seconLesson/WebHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seconLesson/test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +36,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -43,16 +53,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.RunTest.executor": "Run",
     "JUnit.RunTest.factorialTest1.executor": "Run",
     "JUnit.RunTest.factorialTest4.executor": "Debug",
+    "JUnit.test3.CaStatus.executor": "Run",
+    "JUnit.test3.CangeStatus.executor": "Run",
+    "JUnit.test3.CreatJiraTask.executor": "Run",
+    "JUnit.test3.executor": "Run",
+    "JUnit.test3.loginTest.executor": "Run",
+    "JUnit.test3.projectTest.executor": "Run",
+    "JUnit.test3.taskTestSelenium.executor": "Run",
     "Maven.ifellowTest [clean].executor": "Run",
     "Maven.ifellowTest [install].executor": "Run",
     "Maven.ifellowTest [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "IF__HW__3",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -62,6 +80,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,21 +89,81 @@
       <recent name="D:\IFellow\ARSLANOV_IFellow\ARSLANOV_IFellow\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunTest">
-    <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.test3">
+    <configuration name="test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seconLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seconLesson" />
+      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunTest.factorialTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test3.CaStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunTest" />
-      <option name="METHOD_NAME" value="factorialTest1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seconLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seconLesson" />
+      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
+      <option name="METHOD_NAME" value="CaStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test3.CangeStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seconLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seconLesson" />
+      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
+      <option name="METHOD_NAME" value="CangeStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test3.CreatJiraTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seconLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seconLesson" />
+      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
+      <option name="METHOD_NAME" value="CreatJiraTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test3.taskTestSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seconLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seconLesson" />
+      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
+      <option name="METHOD_NAME" value="taskTestSelenium" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,8 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunTest" />
-        <item itemvalue="JUnit.RunTest.factorialTest1" />
+        <item itemvalue="JUnit.test3" />
+        <item itemvalue="JUnit.test3.CaStatus" />
+        <item itemvalue="JUnit.test3.CangeStatus" />
+        <item itemvalue="JUnit.test3.CreatJiraTask" />
+        <item itemvalue="JUnit.test3.taskTestSelenium" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +209,10 @@
       <updated>1708456141259</updated>
       <workItem from="1708456141977" duration="2271000" />
       <workItem from="1708502588919" duration="12044000" />
+      <workItem from="1709231845152" duration="2210000" />
+      <workItem from="1709276533013" duration="928000" />
+      <workItem from="1709402612138" duration="5230000" />
+      <workItem from="1709443793550" duration="15931000" />
     </task>
     <servers />
   </component>
@@ -160,9 +246,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RunTest.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/test/java/seconLesson/test3.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
