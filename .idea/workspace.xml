@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/RestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestClasses/ReqRespTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestClasses/RickAndMortyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/WebHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/json/paren.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -43,6 +50,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Feature: auth.executor": "Run",
+    "Cucumber Java.Scenario: Авторизация в жира.executor": "Run",
+    "JUnit.ReqRespTest.createUserTest.executor": "Run",
+    "JUnit.RickAndMortyTest.test1.executor": "Run",
+    "JUnit.RickAndMortyTest.сompareСharactersTest.executor": "Run",
     "JUnit.RunTest.executor": "Run",
     "JUnit.RunTest.factorialTest1.executor": "Run",
     "JUnit.RunTest.factorialTest4.executor": "Debug",
@@ -52,7 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "IF__HW__5",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -62,6 +74,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,7 +83,55 @@
       <recent name="D:\IFellow\ARSLANOV_IFellow\ARSLANOV_IFellow\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunTest">
+  <component name="RunManager" selected="JUnit.ReqRespTest.createUserTest">
+    <configuration name="ReqRespTest.createUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestClasses.ReqRespTest" />
+      <option name="METHOD_NAME" value="createUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RickAndMortyTest.сompareСharactersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestClasses.RickAndMortyTest" />
+      <option name="METHOD_NAME" value="сompareСharactersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RickAndMortyTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestClasses.RickAndMortyTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,8 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunTest" />
+        <item itemvalue="JUnit.ReqRespTest.createUserTest" />
+        <item itemvalue="JUnit.RickAndMortyTest.сompareСharactersTest" />
+        <item itemvalue="JUnit.RickAndMortyTest.test1" />
         <item itemvalue="JUnit.RunTest.factorialTest1" />
+        <item itemvalue="JUnit.RunTest" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +191,8 @@
       <updated>1708456141259</updated>
       <workItem from="1708456141977" duration="2271000" />
       <workItem from="1708502588919" duration="12044000" />
+      <workItem from="1710267450591" duration="3480000" />
+      <workItem from="1710504651752" duration="1950000" />
     </task>
     <servers />
   </component>
