@@ -1,12 +1,12 @@
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+
 import java.util.List;
 import pages.*;
 import webhooks.WebHooks;
 
-public class test3 extends WebHooks {
+public class Test extends WebHooks {
     private final Page page = new Page();
     private final AuthorizationTask authorizationTask = new AuthorizationTask();
     private final PageTest pageTest = new PageTest();
@@ -18,14 +18,14 @@ public class test3 extends WebHooks {
     private int initTaskCount;
     private int afterTaskCount;
 
-    @Test
+    @org.junit.jupiter.api.Test
     @DisplayName("Проверка авторизации")
     public void loginTest() {
         page.login(log, pass);
         Assertions.assertTrue(AuthorizationTask.isProfileItemDisplayed());
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     @DisplayName("Проверка проекта тест")
     public void projectTest() {
         page.login(log, pass);
@@ -33,7 +33,7 @@ public class test3 extends WebHooks {
         Assertions.assertTrue(AuthorizationTask.isTitleExists("Открытые задачи"));
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     @DisplayName("проверка полей задачи TestSelenium")
     public void taskTestSelenium(){
         page.login(log, pass);
@@ -44,7 +44,7 @@ public class test3 extends WebHooks {
         Assertions.assertEquals("Version 2.0", projectStatus.get(1));
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     @DisplayName("Создание нового бага")
     public  void CreatJiraTask(){
         page.login(log, pass);
@@ -56,7 +56,7 @@ public class test3 extends WebHooks {
         Assertions.assertEquals(initTaskCount, afterTaskCount-1);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     @DisplayName("Перевод статусов")
     public void CaStatus(){
         page.login(log, pass);
