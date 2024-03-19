@@ -8,7 +8,6 @@ import webhooks.WebHooks;
 
 public class Test extends WebHooks {
     private final Page page = new Page();
-    private final AuthorizationTask authorizationTask = new AuthorizationTask();
     private final PageTest pageTest = new PageTest();
     private final JiraTask jiraTask = new JiraTask();
     private final CreateJiraTask createJiraTask = new CreateJiraTask();
