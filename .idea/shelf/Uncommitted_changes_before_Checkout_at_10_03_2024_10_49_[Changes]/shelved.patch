@@ -1,0 +1,382 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/secondLesson/AuthorizationTask.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/secondLesson/CreateJiraTask.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/secondLesson/JiraTask.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/secondLesson/Page.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/secondLesson/PageTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/seconLesson/WebHooks.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/seconLesson/test3.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/RunTest.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2cdzFesitsLd1Cam6OjmkZgxykJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"JUnit.RunTest.executor\": \"Run\",\r\n    \"JUnit.RunTest.factorialTest1.executor\": \"Run\",\r\n    \"JUnit.RunTest.factorialTest4.executor\": \"Debug\",\r\n    \"JUnit.test3.CaStatus.executor\": \"Run\",\r\n    \"JUnit.test3.CangeStatus.executor\": \"Run\",\r\n    \"JUnit.test3.CreatJiraTask.executor\": \"Run\",\r\n    \"JUnit.test3.executor\": \"Run\",\r\n    \"JUnit.test3.loginTest.executor\": \"Run\",\r\n    \"JUnit.test3.projectTest.executor\": \"Run\",\r\n    \"JUnit.test3.taskTestSelenium.executor\": \"Run\",\r\n    \"Maven.ifellowTest [clean].executor\": \"Run\",\r\n    \"Maven.ifellowTest [install].executor\": \"Run\",\r\n    \"Maven.ifellowTest [validate].executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"IF__HW__3\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"build.tools\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\IFellow\\ARSLANOV_IFellow\\ARSLANOV_IFellow\\src\\test\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.test3\">\r\n    <configuration name=\"test3\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"seconLesson.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"seconLesson\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"seconLesson.test3\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test3.CaStatus\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"seconLesson.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"seconLesson\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"seconLesson.test3\" />\r\n      <option name=\"METHOD_NAME\" value=\"CaStatus\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test3.CangeStatus\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"seconLesson.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"seconLesson\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"seconLesson.test3\" />\r\n      <option name=\"METHOD_NAME\" value=\"CangeStatus\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test3.CreatJiraTask\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"seconLesson.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"seconLesson\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"seconLesson.test3\" />\r\n      <option name=\"METHOD_NAME\" value=\"CreatJiraTask\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test3.taskTestSelenium\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"seconLesson.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"seconLesson\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"seconLesson.test3\" />\r\n      <option name=\"METHOD_NAME\" value=\"taskTestSelenium\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"ARSLANOV_IFellow\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"ARSLANOV_IFellow\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.test3\" />\r\n        <item itemvalue=\"JUnit.test3.CaStatus\" />\r\n        <item itemvalue=\"JUnit.test3.CangeStatus\" />\r\n        <item itemvalue=\"JUnit.test3.CreatJiraTask\" />\r\n        <item itemvalue=\"JUnit.test3.taskTestSelenium\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0\" name=\"Changes\" comment=\"\" />\r\n      <created>1708456141259</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1708456141259</updated>\r\n      <workItem from=\"1708456141977\" duration=\"2271000\" />\r\n      <workItem from=\"1708502588919\" duration=\"12044000\" />\r\n      <workItem from=\"1709231845152\" duration=\"2210000\" />\r\n      <workItem from=\"1709276533013\" duration=\"928000\" />\r\n      <workItem from=\"1709402612138\" duration=\"5230000\" />\r\n      <workItem from=\"1709443793550\" duration=\"15931000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/seconLesson/test3.java</url>\r\n          <line>11</line>\r\n          <option name=\"timeStamp\" value=\"4\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,17 +4,18 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/AuthorizationTask.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/CreateJiraTask.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/JiraTask.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/Page.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/secondLesson/PageTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/seconLesson/WebHooks.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/seconLesson/test3.java" afterDir="false" />
++    <list default="true" id="55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0" name="Changes" comment="DZ32">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_02_2024_12_02_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_02_2024_12_02__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/RunTest.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/secondLesson/AuthorizationTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/AuthorizationTask.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/secondLesson/CreateJiraTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/CreateJiraTask.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/secondLesson/JiraTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/JiraTask.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/secondLesson/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/Page.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/secondLesson/PageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/PageTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/seconLesson/WebHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testClass/WebHooks.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/seconLesson/test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testClass/test3.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/test-classes/seconLesson/test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seconLesson/test3.class" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -35,6 +36,20 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Madao1a&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="ee9fb9b7-fd35-4c8c-aab7-4c205d3db269" />
++        <option name="url" value="https://github.com/Madao1a/ARSLANOV_IFellow.git" />
++      </UrlAndAccount>
++    </option>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -51,39 +66,39 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_ADD_EXTERNAL_FILES": "true",
+-    "JUnit.RunTest.executor": "Run",
+-    "JUnit.RunTest.factorialTest1.executor": "Run",
+-    "JUnit.RunTest.factorialTest4.executor": "Debug",
+-    "JUnit.test3.CaStatus.executor": "Run",
+-    "JUnit.test3.CangeStatus.executor": "Run",
+-    "JUnit.test3.CreatJiraTask.executor": "Run",
+-    "JUnit.test3.executor": "Run",
+-    "JUnit.test3.loginTest.executor": "Run",
+-    "JUnit.test3.projectTest.executor": "Run",
+-    "JUnit.test3.taskTestSelenium.executor": "Run",
+-    "Maven.ifellowTest [clean].executor": "Run",
+-    "Maven.ifellowTest [install].executor": "Run",
+-    "Maven.ifellowTest [validate].executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "IF__HW__3",
+-    "kotlin-language-version-configured": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "build.tools",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;JUnit.RunTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.RunTest.factorialTest1.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.RunTest.factorialTest4.executor&quot;: &quot;Debug&quot;,
++    &quot;JUnit.test3.CaStatus.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.test3.CangeStatus.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.test3.CreatJiraTask.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.test3.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.test3.loginTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.test3.projectTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.test3.taskTestSelenium.executor&quot;: &quot;Run&quot;,
++    &quot;Maven.ifellowTest [clean].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.ifellowTest [install].executor&quot;: &quot;Run&quot;,
++    &quot;Maven.ifellowTest [validate].executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;IF__HW__3&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="D:\IFellow\ARSLANOV_IFellow\ARSLANOV_IFellow\src\test" />
+@@ -94,12 +109,12 @@
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="seconLesson.*" />
++          <option name="PATTERN" value="testClass.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="seconLesson" />
+-      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
++      <option name="MAIN_CLASS_NAME" value="testClass.test3" />
+       <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -109,12 +124,12 @@
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="seconLesson.*" />
++          <option name="PATTERN" value="testClass.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="seconLesson" />
+-      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
++      <option name="MAIN_CLASS_NAME" value="testClass.test3" />
+       <option name="METHOD_NAME" value="CaStatus" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+@@ -125,12 +140,12 @@
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="seconLesson.*" />
++          <option name="PATTERN" value="testClass.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="seconLesson" />
+-      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
++      <option name="MAIN_CLASS_NAME" value="testClass.test3" />
+       <option name="METHOD_NAME" value="CangeStatus" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+@@ -141,12 +156,12 @@
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="seconLesson.*" />
++          <option name="PATTERN" value="testClass.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="seconLesson" />
+-      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
++      <option name="MAIN_CLASS_NAME" value="testClass.test3" />
+       <option name="METHOD_NAME" value="CreatJiraTask" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+@@ -157,12 +172,12 @@
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="seconLesson.*" />
++          <option name="PATTERN" value="testClass.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="seconLesson" />
+-      <option name="MAIN_CLASS_NAME" value="seconLesson.test3" />
++      <option name="MAIN_CLASS_NAME" value="testClass.test3" />
+       <option name="METHOD_NAME" value="taskTestSelenium" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+@@ -212,8 +227,28 @@
+       <workItem from="1709231845152" duration="2210000" />
+       <workItem from="1709276533013" duration="928000" />
+       <workItem from="1709402612138" duration="5230000" />
+-      <workItem from="1709443793550" duration="15931000" />
++      <workItem from="1709443793550" duration="16777000" />
++      <workItem from="1709984255063" duration="1189000" />
++      <workItem from="1710049771293" duration="828000" />
++      <workItem from="1710050924146" duration="902000" />
+     </task>
++    <task id="LOCAL-00001" summary="DZ3">
++      <option name="closed" value="true" />
++      <created>1709469818122</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1709469818122</updated>
++    </task>
++    <task id="LOCAL-00002" summary="DZ32">
++      <option name="closed" value="true" />
++      <created>1709469854859</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1709469854859</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -242,15 +277,9 @@
+       </map>
+     </option>
+   </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/test/java/seconLesson/test3.java</url>
+-          <line>11</line>
+-          <option name="timeStamp" value="4" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="DZ3" />
++    <MESSAGE value="DZ32" />
++    <option name="LAST_COMMIT_MESSAGE" value="DZ32" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/test/java/seconLesson/test3.java
+===================================================================
+diff --git a/src/test/java/seconLesson/test3.java b/src/test/java/testClass/test3.java
+rename from src/test/java/seconLesson/test3.java
+rename to src/test/java/testClass/test3.java
+--- a/src/test/java/seconLesson/test3.java	
++++ b/src/test/java/testClass/test3.java	
+@@ -1,14 +1,11 @@
+-package seconLesson;
++package testClass;
+ 
+ import com.codeborne.selenide.Selenide;
+-import io.restassured.internal.common.assertion.Assertion;
+-import org.codehaus.groovy.runtime.powerassert.AssertionRenderer;
+-import org.junit.Assert;
+ import org.junit.jupiter.api.Assertions;
+ import org.junit.jupiter.api.DisplayName;
+ import org.junit.jupiter.api.Test;
+ import java.util.List;
+-import secondLesson.*;
++import page.*;
+ public class test3 extends WebHooks {
+     private final Page page = new Page();
+     private final AuthorizationTask authorizationTask = new AuthorizationTask();
+@@ -54,11 +51,9 @@
+         page.login(log, pass);
+         pageTest.projectTest();
+         initTaskCount = pageTest.countTask();
+-        System.out.println(initTaskCount);
+         createJiraTask.createNewTask("Дефект","Описание дефекта" );
+         Selenide.refresh();
+         afterTaskCount = pageTest.countTask();
+-        System.out.println(afterTaskCount);
+         Assertions.assertEquals(initTaskCount, afterTaskCount-1);
+     }
+ 
+Index: src/main/java/secondLesson/AuthorizationTask.java
+===================================================================
+diff --git a/src/main/java/secondLesson/AuthorizationTask.java b/src/main/java/page/AuthorizationTask.java
+rename from src/main/java/secondLesson/AuthorizationTask.java
+rename to src/main/java/page/AuthorizationTask.java
+--- a/src/main/java/secondLesson/AuthorizationTask.java	
++++ b/src/main/java/page/AuthorizationTask.java	
+@@ -1,4 +1,4 @@
+-package secondLesson;
++package page;
+ 
+ import com.codeborne.selenide.Condition;
+ import com.codeborne.selenide.SelenideElement;
+Index: src/main/java/secondLesson/Page.java
+===================================================================
+diff --git a/src/main/java/secondLesson/Page.java b/src/main/java/page/Page.java
+rename from src/main/java/secondLesson/Page.java
+rename to src/main/java/page/Page.java
+--- a/src/main/java/secondLesson/Page.java	
++++ b/src/main/java/page/Page.java	
+@@ -1,4 +1,4 @@
+-package secondLesson;
++package page;
+ 
+ import com.codeborne.selenide.Condition;
+ import com.codeborne.selenide.SelenideElement;
+Index: src/main/java/secondLesson/JiraTask.java
+===================================================================
+diff --git a/src/main/java/secondLesson/JiraTask.java b/src/main/java/page/JiraTask.java
+rename from src/main/java/secondLesson/JiraTask.java
+rename to src/main/java/page/JiraTask.java
+--- a/src/main/java/secondLesson/JiraTask.java	
++++ b/src/main/java/page/JiraTask.java	
+@@ -1,4 +1,4 @@
+-package secondLesson;
++package page;
+ 
+ import java.util.List;
+ import com.codeborne.selenide.Condition;
+Index: src/main/java/secondLesson/PageTest.java
+===================================================================
+diff --git a/src/main/java/secondLesson/PageTest.java b/src/main/java/page/PageTest.java
+rename from src/main/java/secondLesson/PageTest.java
+rename to src/main/java/page/PageTest.java
+--- a/src/main/java/secondLesson/PageTest.java	
++++ b/src/main/java/page/PageTest.java	
+@@ -1,4 +1,4 @@
+-package secondLesson;
++package page;
+ 
+ import com.codeborne.selenide.SelenideElement;
+ 
+Index: src/test/java/seconLesson/WebHooks.java
+===================================================================
+diff --git a/src/test/java/seconLesson/WebHooks.java b/src/test/java/testClass/WebHooks.java
+rename from src/test/java/seconLesson/WebHooks.java
+rename to src/test/java/testClass/WebHooks.java
+--- a/src/test/java/seconLesson/WebHooks.java	
++++ b/src/test/java/testClass/WebHooks.java	
+@@ -1,4 +1,4 @@
+-package seconLesson;
++package testClass;
+ 
+ import com.codeborne.selenide.Selenide;
+ import org.junit.jupiter.api.AfterEach;
+Index: src/main/java/secondLesson/CreateJiraTask.java
+===================================================================
+diff --git a/src/main/java/secondLesson/CreateJiraTask.java b/src/main/java/page/CreateJiraTask.java
+rename from src/main/java/secondLesson/CreateJiraTask.java
+rename to src/main/java/page/CreateJiraTask.java
+--- a/src/main/java/secondLesson/CreateJiraTask.java	
++++ b/src/main/java/page/CreateJiraTask.java	
+@@ -1,14 +1,10 @@
+-package secondLesson;
++package page;
+ 
+ 
+ import com.codeborne.selenide.SelenideElement;
+ 
+ import static com.codeborne.selenide.Condition.visible;
+ import static com.codeborne.selenide.Selenide.$x;
+-import com.codeborne.selenide.Condition;
+-import static com.codeborne.selenide.Condition.text;
+-import static com.codeborne.selenide.Selenide.refresh;
+-
+ public class CreateJiraTask {
+ 
+     private final SelenideElement createTask = $x("//a[@id='create_link']");
