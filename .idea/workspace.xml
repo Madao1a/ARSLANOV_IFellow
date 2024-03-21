@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0" name="Changes" comment="" />
+    <list default="true" id="55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0" name="Changes" comment="IF_HW_4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/CustomAllureSelenide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_03_2024_10_49__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_03_2024_10_49__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_02_2024_12_02_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_02_2024_12_02__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AuthorizationTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AuthorizationTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CreateJiraTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CreateJiraTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/JiraTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/JiraTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webhooks/WebHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webhooks/WebHooks.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="IF_HW_4" />
+        <entry key="$PROJECT_DIR$" value="IF_HW_3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,39 +53,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.RunTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RunTest.factorialTest1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RunTest.factorialTest4.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.test3.CaStatus.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.CangeStatus.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.CreatJiraTask.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.loginTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.projectTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.taskTestSelenium.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ifellowTest [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ifellowTest [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ifellowTest [validate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;IF__HW__3&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.RunTest.executor": "Run",
+    "JUnit.RunTest.factorialTest1.executor": "Run",
+    "JUnit.RunTest.factorialTest4.executor": "Debug",
+    "JUnit.test3.CaStatus.executor": "Run",
+    "JUnit.test3.CangeStatus.executor": "Run",
+    "JUnit.test3.CreatJiraTask.executor": "Run",
+    "JUnit.test3.executor": "Run",
+    "JUnit.test3.loginTest.executor": "Run",
+    "JUnit.test3.projectTest.executor": "Run",
+    "JUnit.test3.taskTestSelenium.executor": "Run",
+    "Maven.ifellowTest [clean].executor": "Run",
+    "Maven.ifellowTest [install].executor": "Run",
+    "Maven.ifellowTest [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "IF__HW__6",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IFellow\ARSLANOV_IFellow\ARSLANOV_IFellow\src\test" />
@@ -202,6 +215,7 @@
       <workItem from="1709276533013" duration="928000" />
       <workItem from="1709402612138" duration="5230000" />
       <workItem from="1709443793550" duration="15931000" />
+      <workItem from="1711049140109" duration="2096000" />
     </task>
     <servers />
   </component>

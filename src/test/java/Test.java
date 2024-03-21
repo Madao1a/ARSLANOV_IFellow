@@ -17,8 +17,8 @@ public class Test extends WebHooks {
     private int initTaskCount;
     private int afterTaskCount;
 
-    @org.junit.jupiter.api.Test
     @DisplayName("Проверка авторизации")
+    @org.junit.jupiter.api.Test
     public void loginTest() {
         page.login(log, pass);
         Assertions.assertTrue(AuthorizationTask.isProfileItemDisplayed());

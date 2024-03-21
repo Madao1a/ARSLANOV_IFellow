@@ -2,6 +2,7 @@ package pages;
 
 
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$x;
@@ -21,7 +22,7 @@ public class CreateJiraTask {
     private final SelenideElement businessProcess =$x("//a[@id='opsbar-transitions_more']");
     private final SelenideElement accomplishedWork =$x("//span[text()='Выполнено']/parent::a[@role='menuitem']");
 
-
+    @Step("Четвертый")
     public void createNewTask(String taskTheme, String description) {
         createTask.click();
         inputTaskTheme.shouldBe(visible);
@@ -31,6 +32,7 @@ public class CreateJiraTask {
         checkNewTask.shouldBe(visible);
     }
 
+    @Step("пятый")
     public void statusChange(){
         triggerC.click();
         labelCheck.click();

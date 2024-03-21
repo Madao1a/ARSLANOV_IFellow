@@ -3,6 +3,7 @@ package pages;
 import java.util.List;
 
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selenide.$x;
 
@@ -15,7 +16,7 @@ public class JiraTask {
 //        String fixVersionsText = fixVersions.shouldBe(Condition.visible).getText();
 //        return List.of(statusText, fixVersionsText);
 //    }
-
+    @Step("шестой")
     public List<String> statusCheck(){
         String statusText = statusValue.getText().toLowerCase();
         String version = fixVersions.getText();
