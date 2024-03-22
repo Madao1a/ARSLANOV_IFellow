@@ -14,6 +14,7 @@ public class Page {
     @Step("Шестой")
     public void login(String log, String pass){
         osName.shouldBe(Condition.visible);
+        .sendKey(log);
         osPass.shouldBe(Condition.visible);
         osName.setValue(log);
         osPass.setValue(pass);
