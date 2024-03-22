@@ -60,52 +60,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.RunTest.executor": "Run",
-    "JUnit.RunTest.factorialTest1.executor": "Run",
-    "JUnit.RunTest.factorialTest4.executor": "Debug",
-    "JUnit.Test.loginTest.executor": "Run",
-    "JUnit.TestSel.loginTest.executor": "Run",
-    "JUnit.test3.CaStatus.executor": "Run",
-    "JUnit.test3.CangeStatus.executor": "Run",
-    "JUnit.test3.CreatJiraTask.executor": "Run",
-    "JUnit.test3.executor": "Run",
-    "JUnit.test3.loginTest.executor": "Run",
-    "JUnit.test3.projectTest.executor": "Run",
-    "JUnit.test3.taskTestSelenium.executor": "Run",
-    "Maven.ifellowTest [clean].executor": "Run",
-    "Maven.ifellowTest [install].executor": "Run",
-    "Maven.ifellowTest [validate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "IF__HW__6",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "build.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.RunTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RunTest.factorialTest1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RunTest.factorialTest4.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Test.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSel.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test3.CaStatus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test3.CangeStatus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test3.CreatJiraTask.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test3.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test3.projectTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test3.taskTestSelenium.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ifellowTest [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ifellowTest [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ifellowTest [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;IF__HW__6&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IFellow\ARSLANOV_IFellow\ARSLANOV_IFellow\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSel.loginTest">
+  <component name="RunManager" selected="JUnit.TestSel.projectTest">
     <configuration name="TestSel.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestSel" />
       <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSel.projectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSel" />
+      <option name="METHOD_NAME" value="projectTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,22 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test3.CreatJiraTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ifellowTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test3" />
-      <option name="METHOD_NAME" value="CreatJiraTask" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ARSLANOV_IFellow" />
       <method v="2">
@@ -189,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSel.projectTest" />
         <item itemvalue="JUnit.TestSel.loginTest" />
         <item itemvalue="JUnit.test3" />
         <item itemvalue="JUnit.test3.CaStatus" />
         <item itemvalue="JUnit.test3.CangeStatus" />
-        <item itemvalue="JUnit.test3.CreatJiraTask" />
       </list>
     </recent_temporary>
   </component>
