@@ -1,4 +1,4 @@
-package PagesTest;
+package pagesTests;
 
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Assertions;

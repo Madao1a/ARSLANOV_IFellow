@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0" name="Changes" comment="IF_HW_4">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709405473940.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709405473940.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709460393398.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709460393398.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709463534113.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709463534113.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709468038100.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709468038100.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709468148152.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709468148152.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709468203554.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709468203554.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709468396724.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709468396724.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709468486478.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709468486478.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709468586539.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709468586539.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709468728589.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709468728589.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1709469666935.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1709469666935.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1710876676161.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1710876676161.0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1710876685386.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/1710876685386.1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/CustomAllureSelenide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSel.java" afterDir="false" />
-    </list>
+    <list default="true" id="55af30ef-c42a-4a8a-8d8f-e1a57c67dfd0" name="Changes" comment="IF_HW_6_3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,51 +40,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.RunTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RunTest.factorialTest1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RunTest.factorialTest4.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.Test.loginTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestSel.loginTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.CaStatus.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.CangeStatus.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.CreatJiraTask.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.loginTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.projectTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test3.taskTestSelenium.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ifellowTest [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ifellowTest [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ifellowTest [validate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;IF__HW__6&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.RunTest.executor": "Run",
+    "JUnit.RunTest.factorialTest1.executor": "Run",
+    "JUnit.RunTest.factorialTest4.executor": "Debug",
+    "JUnit.Test.loginTest.executor": "Run",
+    "JUnit.TestSel.loginTest.executor": "Run",
+    "JUnit.TestSel.projectTest.executor": "Run",
+    "JUnit.test3.CaStatus.executor": "Run",
+    "JUnit.test3.CangeStatus.executor": "Run",
+    "JUnit.test3.CreatJiraTask.executor": "Run",
+    "JUnit.test3.executor": "Run",
+    "JUnit.test3.loginTest.executor": "Run",
+    "JUnit.test3.projectTest.executor": "Run",
+    "JUnit.test3.taskTestSelenium.executor": "Run",
+    "Maven.ifellowTest [clean].executor": "Run",
+    "Maven.ifellowTest [install].executor": "Run",
+    "Maven.ifellowTest [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "IF__HW__6",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IFellow\ARSLANOV_IFellow\ARSLANOV_IFellow\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSel.projectTest">
+  <component name="RunManager" selected="JUnit.TestSel.loginTest">
     <configuration name="TestSel.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSel" />
+      <option name="PACKAGE_NAME" value="PagesTest" />
+      <option name="MAIN_CLASS_NAME" value="pagesTests.TestSel" />
       <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -113,8 +94,8 @@
     </configuration>
     <configuration name="TestSel.projectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSel" />
+      <option name="PACKAGE_NAME" value="PagesTest" />
+      <option name="MAIN_CLASS_NAME" value="pagesTests.TestSel" />
       <option name="METHOD_NAME" value="projectTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -183,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSel.projectTest" />
         <item itemvalue="JUnit.TestSel.loginTest" />
+        <item itemvalue="JUnit.TestSel.projectTest" />
         <item itemvalue="JUnit.test3" />
         <item itemvalue="JUnit.test3.CaStatus" />
         <item itemvalue="JUnit.test3.CangeStatus" />
@@ -223,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711051425141</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="IF_HW_6_3">
+      <option name="closed" value="true" />
+      <created>1711086173018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711086173018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +243,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IF_HW_4" />
-    <option name="LAST_COMMIT_MESSAGE" value="IF_HW_4" />
+    <MESSAGE value="IF_HW_6_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="IF_HW_6_3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
