@@ -8,6 +8,8 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import util.TestProperties;
+
 import java.io.IOException;
 
 
@@ -22,7 +24,7 @@ public class WebHooks {
 
         System.getProperties().load(ClassLoader.getSystemResourceAsStream("application.properties"));
         Configuration.browser = Browsers.CHROME;
-        Selenide.open(System.getProperty("url"));
+        Selenide.open(TestProperties.getProperty("url"));
         WebDriverRunner.getWebDriver().manage().window().maximize();
     }
 }

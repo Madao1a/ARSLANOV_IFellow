@@ -1,6 +1,6 @@
 package pages;
 
-import com.codeborne.selenide.Condition;
+
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
@@ -12,12 +12,9 @@ public class Page {
     private final SelenideElement logButton = $x("//input[@name='login']");
 
     @Step("Шестой")
-    public void login(String log, String pass){
-        osName.shouldBe(Condition.visible);
-        .sendKey(log);
-        osPass.shouldBe(Condition.visible);
-        osName.setValue(log);
-        osPass.setValue(pass);
+    public void login(String login, String password){
+        osName.sendKeys(login);
+        osPass.sendKeys(password);
         logButton.click();
     }
 }
