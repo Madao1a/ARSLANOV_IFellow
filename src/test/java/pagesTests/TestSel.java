@@ -1,12 +1,21 @@
+package pagesTests;
+
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 
 import java.util.List;
-import pages.*;
-import webhooks.WebHooks;
 
-public class Test extends WebHooks {
+import org.junit.jupiter.api.Test;
+import webhooks.WebHooks;
+import pages.Page;
+import pages.AuthorizationTask;
+import pages.PageTest;
+import pages.JiraTask;
+import pages.CreateJiraTask;
+
+
+public class TestSel extends WebHooks {
     private final Page page = new Page();
     private final PageTest pageTest = new PageTest();
     private final JiraTask jiraTask = new JiraTask();
@@ -17,23 +26,26 @@ public class Test extends WebHooks {
     private int initTaskCount;
     private int afterTaskCount;
 
-    @org.junit.jupiter.api.Test
+
     @DisplayName("Проверка авторизации")
+    @Test
     public void loginTest() {
         page.login(log, pass);
         Assertions.assertTrue(AuthorizationTask.isProfileItemDisplayed());
     }
 
-    @org.junit.jupiter.api.Test
+
     @DisplayName("Проверка проекта тест")
+    @Test
     public void projectTest() {
         page.login(log, pass);
         pageTest.projectTest();
         Assertions.assertTrue(AuthorizationTask.isTitleExists("Открытые задачи"));
     }
 
-    @org.junit.jupiter.api.Test
+
     @DisplayName("проверка полей задачи TestSelenium")
+    @Test
     public void taskTestSelenium(){
         page.login(log, pass);
         AuthorizationTask.waitSignIn();
@@ -43,8 +55,9 @@ public class Test extends WebHooks {
         Assertions.assertEquals("Version 2.0", projectStatus.get(1));
     }
 
-    @org.junit.jupiter.api.Test
+
     @DisplayName("Создание нового бага")
+    @Test
     public  void CreatJiraTask(){
         page.login(log, pass);
         pageTest.projectTest();
@@ -55,8 +68,9 @@ public class Test extends WebHooks {
         Assertions.assertEquals(initTaskCount, afterTaskCount-1);
     }
 
-    @org.junit.jupiter.api.Test
+
     @DisplayName("Перевод статусов")
+    @Test
     public void CaStatus(){
         page.login(log, pass);
         pageTest.projectTest();
