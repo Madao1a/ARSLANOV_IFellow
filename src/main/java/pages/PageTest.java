@@ -9,6 +9,8 @@ public class PageTest {
     private final SelenideElement iconTest = $x("//a[@id='admin_main_proj_link_lnk']");
     private final SelenideElement searchInput = $x("//input[@id='quickSearchInput']");
     private final SelenideElement tasksCounter = $x("//div[@class='showing']/child::span");
+
+
     public void projectTest(){
         projectButton.click();
         iconTest.click();

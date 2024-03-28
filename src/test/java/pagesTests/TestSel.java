@@ -7,6 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
+import util.TestProperties;
 import webhooks.WebHooks;
 import pages.Page;
 import pages.AuthorizationTask;
@@ -21,8 +22,6 @@ public class TestSel extends WebHooks {
     private final JiraTask jiraTask = new JiraTask();
     private final CreateJiraTask createJiraTask = new CreateJiraTask();
 
-    private final String log = "AT2";
-    private final String pass = "Qwerty123";
     private int initTaskCount;
     private int afterTaskCount;
 
@@ -30,7 +29,7 @@ public class TestSel extends WebHooks {
     @DisplayName("Проверка авторизации")
     @Test
     public void loginTest() {
-        page.login(log, pass);
+        page.login(TestProperties.getPoperty("login"),TestProperties.getPoperty("password"));
         Assertions.assertTrue(AuthorizationTask.isProfileItemDisplayed());
     }
 
@@ -38,7 +37,7 @@ public class TestSel extends WebHooks {
     @DisplayName("Проверка проекта тест")
     @Test
     public void projectTest() {
-        page.login(log, pass);
+        page.login(TestProperties.getPoperty("login"),TestProperties.getPoperty("password"));
         pageTest.projectTest();
         Assertions.assertTrue(AuthorizationTask.isTitleExists("Открытые задачи"));
     }
@@ -47,11 +46,11 @@ public class TestSel extends WebHooks {
     @DisplayName("проверка полей задачи TestSelenium")
     @Test
     public void taskTestSelenium(){
-        page.login(log, pass);
+        page.login(TestProperties.getPoperty("login"),TestProperties.getPoperty("password"));
         AuthorizationTask.waitSignIn();
         pageTest.searchText("TestSelenium");
         List<String> projectStatus = jiraTask.statusCheck();
-        Assertions.assertEquals("СДЕЛАТЬ", projectStatus.get(0));
+        Assertions.assertEquals("готово", projectStatus.get(0));
         Assertions.assertEquals("Version 2.0", projectStatus.get(1));
     }
 
@@ -59,10 +58,10 @@ public class TestSel extends WebHooks {
     @DisplayName("Создание нового бага")
     @Test
     public  void CreatJiraTask(){
-        page.login(log, pass);
+        page.login(TestProperties.getPoperty("login"),TestProperties.getPoperty("password"));
         pageTest.projectTest();
         initTaskCount = pageTest.countTask();
-        createJiraTask.createNewTask("Дефект","Описание дефекта" );
+        createJiraTask.createNewTask("Дефект2","Описание дефекта" );
         Selenide.refresh();
         afterTaskCount = pageTest.countTask();
         Assertions.assertEquals(initTaskCount, afterTaskCount-1);
@@ -72,7 +71,7 @@ public class TestSel extends WebHooks {
     @DisplayName("Перевод статусов")
     @Test
     public void CaStatus(){
-        page.login(log, pass);
+        page.login(TestProperties.getPoperty("login"),TestProperties.getPoperty("password"));
         pageTest.projectTest();
         createJiraTask.statusChange();
     }
